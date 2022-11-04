@@ -15,3 +15,4 @@ jobs:
         run: R CMD build .
       - name: Check package
         run: R CMD check --no-manual *.tar.gz
+
